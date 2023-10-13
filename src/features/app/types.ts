@@ -1,3 +1,7 @@
 export interface InitialStateProps {
-    appName: string;
+    isInRoom: boolean;
+    roomName: string;
+    playerSymbol: "X" | "O";
+    isPlayerTurn: boolean;
+    isGameStarted: boolean
 }
